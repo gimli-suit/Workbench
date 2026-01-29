@@ -33,10 +33,13 @@ body:
       1. See error...
   validations:
     required: true
-- type: markdown
+- type: textarea
   attributes:
-    value: |
-      <details><summary><strong>Click to expand log file instructions</strong></summary>
+    label: Screenshots or Screen Captures
+    description: Add screenshots or screen captures for added context
+    placeholder: |
+      <details>
+      <summary>Click to expand!</summary>
   validations:
     required: false
 - type: textarea
