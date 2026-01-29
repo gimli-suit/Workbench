@@ -40,8 +40,10 @@ body:
     value: |
       <details>
         <summary>
-          Drop Media Here!
+          Screenshots Bellow
         </summary>
+        ![Screenshot](url-to-screenshot)
+        ![Screenshot](url-to-screenshot)
       </details>
   validations:
     required: false
