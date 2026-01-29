@@ -37,9 +37,12 @@ body:
   attributes:
     label: Screenshots or Screen Captures
     description: Add screenshots or screen captures for added context
-    placeholder: |
+    value: |
       <details>
-      <summary>Click to expand!</summary>
+        <summary>
+          Drop Media Here!
+        </summary>
+      </details>
   validations:
     required: false
 - type: textarea
