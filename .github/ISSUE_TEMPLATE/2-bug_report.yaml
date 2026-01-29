@@ -23,10 +23,10 @@ body:
       - **Sev 4 - Low**: The bug is minor and does not significantly impact user experience.
 
       ### Priority Levels:
-      - **P1 - Blocker**: Requires immediate attention and resolution.
-      - **P2 - High**: Should be addressed in the next development cycle.
-      - **P3 - Medium**: Can be scheduled for a future development cycle.
-      - **P4 - Low**: Can be addressed at a later time or as part of routine maintenance.
+      - **P0 - Blocker**: Requires immediate attention and resolution.
+      - **P1 - High**: Should be addressed in the next development cycle.
+      - **P2 - Medium**: Can be scheduled for a future development cycle.
+      - **P3 - Low**: Can be addressed at a later time or as part of routine maintenance.
 
 - type: dropdown
   id: severity
@@ -34,10 +34,10 @@ body:
     label: What is the impact of this bug?
     description: Select the severity level of the bug.
     options:
-        - Sev-1
-        - Sev-2
-        - Sev-3
-        - Sev-4
+        - Sev 1 Critical
+        - Sev 2 High
+        - Sev 3 Medium
+        - Sev 4 Low
   validations:
     required: true
 - type: dropdown
@@ -46,10 +46,10 @@ body:
     label: What is the priority of this bug?
     description: Select the priority level for addressing the bug.
     options:
-        - P1
-        - P2
-        - P3
-        - P4
+        - P0 - Blocker
+        - P1 - High
+        - P2 - Medium
+        - P3 - Low
   validations:
     required: true
 - type: textarea
