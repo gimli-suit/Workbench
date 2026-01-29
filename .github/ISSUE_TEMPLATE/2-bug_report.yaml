@@ -1,6 +1,6 @@
 name: 🐞 Internal Testing Bug
 description: File a bug/issue as a result of internal testing
-title: "[BUG] <title>"
+title: ""
 labels: ["bug", "needs-triage", "internal-testing"]
 body:
 - type: checkboxes
@@ -46,10 +46,10 @@ body:
     label: What is the priority of this bug?
     description: Select the priority level for addressing the bug.
     options:
-        - P0 - Blocker
-        - P1 - High
-        - P2 - Medium
-        - P3 - Low
+        - P0 Blocker
+        - P1 High
+        - P2 Medium
+        - P3 Low
   validations:
     required: true
 - type: textarea
