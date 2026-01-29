@@ -10,6 +10,38 @@ body:
     options:
     - label: I have searched the existing issues
       required: true
+- type: dropdown
+  id: severity
+  attributes:
+    label: What is the impact of this bug?
+    description: Select the severity level of the bug.
+    options:
+      - label: "Sev 1 - Critical: The bug causes a complete loss of service or a critical feature is broken for all users."
+        value: sev-1
+      - label: "Sev 2 - High: The bug significantly impairs functionality or performance for a large number of users."
+        value: sev-2
+      - label: "Sev 3 - Medium: The bug affects a feature or functionality but has a workaround available."
+        value: sev-3
+      - label: "Sev 4 - Low: The bug is minor and does not significantly impact user experience."
+        value: sev-4
+  validations:
+    required: true
+- type: dropdown
+  id: priority
+  attributes:
+    label: What is the priority of this bug?
+    description: Select the priority level for addressing the bug.
+    options:
+      - label: "P1 - Blocker: Requires immediate attention and resolution."
+        value: p1
+      - label: "P2 - High: Should be addressed in the next development cycle."
+        value: p2
+      - label: "P3 - Medium: Can be scheduled for a future development cycle."
+        value: p3
+      - label: "P4 - Low: Can be addressed at a later time or as part of routine maintenance."
+        value: p4
+  validations:
+    required: true
 - type: textarea
   attributes:
     label: Current Behavior
@@ -42,7 +74,6 @@ body:
         <summary>
           Screenshots Bellow
         </summary>
-        ![Screenshot](url-to-screenshot)
         ![Screenshot](url-to-screenshot)
       </details>
   validations:
