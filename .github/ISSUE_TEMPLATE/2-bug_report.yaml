@@ -1,6 +1,6 @@
 name: 🐞 Internal Testing Bug
 description: File a bug/issue as a result of internal testing
-title: 'Issue Title'
+title: '<TITLE>'
 labels: ["bug", "needs-triage", "internal-testing"]
 body:
 - type: checkboxes
