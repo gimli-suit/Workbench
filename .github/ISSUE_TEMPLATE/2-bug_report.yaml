@@ -103,6 +103,30 @@ body:
     required: true
 - type: textarea
   attributes:
+    label: Affects Version
+    description: |
+      The version(s) of the software where you first noticed this issue.
+      examples:
+        - **iOS Client Version**: 1.95.10
+    value: |
+        - iOS Client Version:
+    render: markdown
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Fix Version
+    description: |
+      The release version where you expect this bug to be fixed.
+      examples:
+        - **iOS Client Version**: 1.95.10
+    value: |
+        - iOS Client Version:
+    render: markdown
+  validations:
+    required: false
+- type: textarea
+  attributes:
     label: Anything else?
     description: |
       Links? References? Anything that will give us more context about the issue you are encountering!
