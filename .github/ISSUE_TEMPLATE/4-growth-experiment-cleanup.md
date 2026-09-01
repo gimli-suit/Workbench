@@ -2,7 +2,7 @@
 name: Experiment Cleanup Issue
 about: Create an issue to capture the cleanup work for a completed experiment
 title: ''
-labels: 'product-growth-pod','experiment-cleanup'
+labels: "product-growth-pod,experiment-cleanup"
 assignees: ''
 
 ---
